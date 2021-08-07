@@ -1,8 +1,35 @@
+body{
+    background-color: rgb(234, 239, 243);
+    
+}
+
 body .logo{
     color: slateblue;
     font-weight: 800;
+    
 }
 body section .container i{
     color: slateblue;
-    font-size: 3rem;
+    font-size: 8vh;
+    
+}
+
+body section .d-grid .btn-light{
+    background-color: rgb(234, 239, 243) ;
+}
+body section .d-grid .btn-light:hover{
+    border: 1.8px solid rgb(15, 122, 194);
+}
+
+@media only screen and (min-width: 800px){
+    body .container-lg{
+        height: 450px;
+    width: 400px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body .container-lg{
+        height: 100%;
+    width: 100%;
+    }
 }
